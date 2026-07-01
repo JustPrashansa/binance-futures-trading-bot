@@ -59,6 +59,15 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 python cli.py --symbol BTCUSDT --side BUY --type LIMIT --quantity 0.001 --price 50000
 ```
 
+## Error Handling
+
+- Invalid BUY/SELL validation
+- Invalid MARKET/LIMIT validation
+- Missing LIMIT price validation
+- API exception handling
+- Logging of requests and responses
+
+  
 ## Assumptions
 
 - Binance Futures Demo/Testnet account is configured.
